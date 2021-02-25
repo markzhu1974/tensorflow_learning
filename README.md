@@ -19,7 +19,7 @@ Amazon Personalize是一种能让你快速有效地构建和扩展推荐或者�
 1. 如何将数据集映射到Amazon Personalize.
 1. 模型或配方与用例的适用关系.
 1. 如何以程序方式构建模型.
-1. 对模型性能指标的解释.
+1. 对模型指标的解释.
 1. 以程序方式部署模型.
 1. 从Personalize获得结果.
 
@@ -36,13 +36,13 @@ Notebook文件在使用前已经清除了所有的输出，但是如果你想看
 `02_Validating_and_Importing_Item_Metadata.ipynb`
 1. 创建和评估你的第一个方案 - 
 `03_Creating_and_Evaluating_Solutions.ipynb`
-1. 部署活动（campaign）和过滤器 -
+1. 部署活动（campaign）和筛选器 -
 `04_Deploying_Campaigns_and_Filters.ipynb`
-1. 与活动（campaigns）和过滤器交互 -
+1. 与活动（campaigns）和筛选器交互 -
 `05_Interacting_with_Campaigns_and_Filters.ipynb`
-1. 清空你的AWS 账号中所用的资源 - `06_Clean_Up_Resources.ipynb`
+1. 清空你的AWS账号中用到的资源 - `06_Clean_Up_Resources.ipynb`
 
-以上为本POC过程的一般顺序。但是，如果你是要参加一个两天的现场POC，建议你在到达实验现场之前事先导入user-item-interaction 和item-metadata数据。
+以上为本POC过程的一般顺序。但是，如果你是参加一个两天的现场POC，建议你在到达实验现场之前事先导入user-item-interaction 和item-metadata数据。
 
 
 ## 部署你的工作环境
@@ -55,7 +55,7 @@ Notebook文件在使用前已经清除了所有的输出，但是如果你想看
 
 ### Cloud Formation 向导
 
-从点击Next按钮开始，如下：
+从点击页面底部的`Next`按钮开始，如下：
 
 ![StackWizard](static/imgs/img1.png)
 
